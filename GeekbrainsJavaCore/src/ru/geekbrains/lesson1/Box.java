@@ -41,6 +41,8 @@ public class Box<T extends Fruit> {
         return (this.getWeiht() == box.getWeiht());
     }
 
+
+
     public void move(Box<T> box) {
         System.out.println("Пересыпаем в новую коробку");
         for (T fruit : this.getList()) {
